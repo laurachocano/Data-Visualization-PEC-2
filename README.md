@@ -29,11 +29,11 @@
 
 **Representación**: Este grafo pretende determinar qué personajes son los principales en la serie Juego de Tronos y ver qué relaciones son las más fuertes. Para ello hemos necesitado tener dos columnas de datos que muestran los personajes que están relacionados y una tercera que muestra el nivel de dicha relación. Podemos ver la gruesa línea entre los personajes Jaime & Brienne, Jon & Sam, Bran & Hodor, Daenerys & Sir Jorah. 
 
-![Gráfico 2.1](image-6.png)
+![Gráfico 2.1](image-2.1.png)
 
 Para facilitar la visualización de la relaciones más fuertes podemos filtrar las relaciones mayores a cierto valor. En este caso al eliminar las relaciones menores a 15 vemos el siguiente resultado.
 
-![Gráfico 2.2](image-7.png)
+![Gráfico 2.2](image-2.2.png)
 
 ### GRUPO III (Menos habituales o más específicos): 302. Rain cloud Plots
 
@@ -52,6 +52,6 @@ Cada categoría incluye medio diagrama de violín para ilustrar la densidad, jun
 Observamos que las personas con un estado de salud excelente tienden a tener un BMI con menor media y menor variabilidad, por lo que sus rangos intercuartílicos también se encuentran en valores más bajos en comparación con el resto. En cambio, aquellas personas en peor estado de salud muestran una mayor variabilidad en sus datos, incluyendo colas que indican casos de BMI elevado.
 Esta representación gráfica y el análisis de los datos son ideales para responder preguntas sobre la relación entre el BMI y el estado de salud de una población.
 
-![Gráfico 4](image-5.png)
+![Gráfico 4](image-3.png)
 
 
