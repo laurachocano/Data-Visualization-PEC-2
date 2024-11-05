@@ -14,7 +14,7 @@
 
 **Representación**: Esta representación permite ver la evolución del consumo de energía mundial de diferentes fuentes de energía. Podemos responder a preguntas como cuál es la fuente que más se consume o la que ha tenido mayores cambios a lo largo del tiempo. Con estos datos y visualización podemos lograr responder a estas preguntas y afirmar que la energía fósil es la más utilizada porque el área es mayor. En cambio, la que más ha incrementado su consumo a lo largo del tiempo es la del gas porque es la que más ha incrementado el área debajo de la línea desde el año 1965 a 2023.
 
-![Gráfico 1](image.png)
+![Gráfico 1](image-1.png)
 
 
 ### GRUPO II (Habituales y conocidas en ámbitos específicos i de expertos): 204. Force-Directed Graph
