@@ -27,7 +27,7 @@
 
 **Limitaciones**: Un exceso de conexiones puede saturar la visualización y dificultar la interpretación.
 
-**Representación**: Este grafo pretende determinar qué personajes son los principales en la serie Juego de Tronos y ver qué relaciones son las más fuertes. Para ello hemos necesitado tener dos columnas de datos que muestran los personajes que están relacionados y una tercera que muestra el nivel de dicha relación. Podemos ver la gruesa línea entre los personajes Jaime & Brienne, Jon & Sam, Bran & Hodor, Daenerys & Sir Jorah. 
+**Representación**: Este grafo pretende determinar qué personajes son los principales en la serie Juego de Tronos y ver qué relaciones son las más fuertes. Para ello hemos necesitado tener dos columnas de datos que muestran los personajes que están relacionados y una tercera que muestra el nivel de dicha relación. Podemos ver la gruesa línea entre los personajes Jaime & Brienne, Jon & Mance, Bran & Hodor, Sansa & Tyrion. 
 
 ![Gráfico 2.1](image-2.1.png)
 
