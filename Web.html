@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualización de Datos - PEC 2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #333;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+    .description {
+      background-color: #f9f9f9;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>UOC - Máster en Ciencia de Datos</h1>
+  <h2>PEC 2 - Visualización de Datos</h2>
+
+  <!-- Grupo I: Area Chart -->
+  <div class="section">
+    <h3>GRUPO I (Técnicas básicas y populares): 105. Área Chart</h3>
+    <p><strong>Descripción:</strong> Un gráfico de área muestra la evolución de una variable continua a lo largo del tiempo. Se pueden dividir en categorías y mostrar como stacked area chart. El color del área permite diferenciar entre categorías.</p>
+    <p><strong>Ejemplo:</strong> Visualizar la evolución de diferentes fuentes de consumo de energía mundial a lo largo de los años.</p>
+    <p><strong>Tipo de datos y estructura:</strong> Datos numéricos continuos históricos, divididos en categorías.</p>
+    <p><strong>Limitaciones:</strong> Puede dificultar la lectura cuando hay múltiples áreas que se superponen.</p>
+    <div class="description">
+      <p><strong>Representación:</strong> Esta representación permite ver la evolución del consumo de energía mundial de diferentes fuentes. Podemos observar la mayor utilización de energía fósil y el aumento del consumo de gas a lo largo del tiempo.</p>
+    </div>
+    <img src="image.png" alt="Gráfico 1 - Área Chart">
+  </div>
+
+  <!-- Grupo II: Force-Directed Graph -->
+  <div class="section">
+    <h3>GRUPO II (Habituales y conocidas en ámbitos específicos y de expertos): 204. Force-Directed Graph</h3>
+    <p><strong>Descripción:</strong> Muestra la relación entre entidades mediante un grafo. Los nodos representan entidades y las aristas, la relación entre ellas. El grosor de la línea indica la fuerza de la relación.</p>
+    <p><strong>Ejemplo:</strong> Representación de relaciones de personajes en una película, donde las aristas indican el número de diálogos compartidos.</p>
+    <p><strong>Tipo de datos y estructura:</strong> Datos cualitativos en nodos y datos numéricos en las relaciones.</p>
+    <p><strong>Limitaciones:</strong> Un exceso de conexiones puede saturar la visualización.</p>
+    <div class="description">
+      <p><strong>Representación:</strong> El grafo muestra los personajes principales en "Juego de Tronos" y sus relaciones más fuertes, como entre Jaime & Brienne, Jon & Mance, Bran & Hodor, Sansa & Tyrion.</p>
+    </div>
+    <img src="image-2.1.png" alt="Gráfico 2.1 - Force-Directed Graph">
+    <p>Filtrando relaciones menores a 15:</p>
+    <img src="image-2.2.png" alt="Gráfico 2.2 - Force-Directed Graph con filtro">
+  </div>
+
+  <!-- Grupo III: Rain Cloud Plot -->
+  <div class="section">
+    <h3>GRUPO III (Menos habituales o más específicos): 302. Rain Cloud Plots</h3>
+    <p><strong>Descripción:</strong> Combina un diagrama de violín, un gráfico de puntos y un box plot para mostrar la distribución de datos continuos en una sola visualización.</p>
+    <p><strong>Ejemplo:</strong> Comparar distribuciones de datos, como los tiempos de reacción en distintos grupos de edad en un estudio.</p>
+    <p><strong>Tipo de datos y estructura:</strong> Datos continuos segmentados en categorías.</p>
+    <p><strong>Limitaciones:</strong> Requiere conocimientos previos para entender la combinación de diferentes elementos visuales.</p>
+    <div class="description">
+      <p><strong>Representación:</strong> La gráfica muestra la distribución del índice de masa corporal (BMI) en distintas categorías de salud, observando las características asociadas a diferentes estados de salud.</p>
+    </div>
+    <img src="image-3.png" alt="Gráfico 3 - Rain Cloud Plot">
+  </div>
+
+</body>
+</html>
